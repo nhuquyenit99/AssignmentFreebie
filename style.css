@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Homemade Apple;
+    src:url('HomemadeApple-Regular.ttf') format('truetype');
+  }
+@font-face{
+    font-family: SVN-Gilroy;
+    src: url('SVN-Gilroy\ Light.otf') format('truetype');
+}
+
+body{
+    font-family: SVN-Gilroy;
+}
+a{
+    text-decoration: none;
+}
+.Navigation-Bar{
+    height: 116px;
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    font-family: Homemade Apple;
+    margin-left: 80px;
+    font-size: 18px;
+    font-style: normal;
+    font-size: 18px;
+    color: #231F20;
+}
+.menu-item{
+    font-size: 18px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.head-item{
+    margin: 15.5px;
+    color: #000000;
+}
+.Navigation-Bar .button{
+    padding: 14px 25px;
+    color: #F7941E;
+    margin-right: 34px;
+    border-radius: 5px;
+    border: 1px solid #F7941E;
+    text-transform: uppercase;
+    background: #FAFAFA;
+}
