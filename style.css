@@ -6,6 +6,10 @@
     font-family: SVN-Gilroy;
     src: url('SVN-Gilroy\ Light.otf') format('truetype');
 }
+@font-face {
+    font-family: Roboto;
+    src:url('Roboto-Light.ttf') format('truetype');
+  }
 
 body{
     font-family: SVN-Gilroy;
@@ -46,13 +50,14 @@ a{
     text-transform: uppercase;
     background: #FAFAFA;
 }
+
+/* section 2 */
 .hero-side-image-right{
     background: #F1F1F2;
     height: 700px;
     display: flex;
 }
 .content{
-    /* width: 50%; */
     flex-grow: 1;
     margin-left: 162px;
     margin-top: 154px;
@@ -84,6 +89,7 @@ a{
     background-position: center;
 }
 
+/* section 3 */
 .feature-split-right{
     background: #F1F1F2;
     height: 600px;
@@ -120,3 +126,48 @@ a{
     margin-top: 35px;
     text-transform: uppercase;
 }
+
+.title3{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 96px;
+}
+.subtitle3{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 23px;
+}
+/* section 4 */
+.gift-occasion{
+    display: flex;
+    padding: 64px 135px 137px;
+    justify-content: space-between;
+}
+.card-blog{
+    background: #FAFAFA;
+    width: 270px;
+    height: 436px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.image-occasion{
+    background-size: cover;
+    background-position: center center;
+    height: 270px;
+    width: 270px;
+}
+.gift-content{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.name-occasion{
+    font-size: 20px;
+    margin-bottom: 76px;
+}
+.link-see-more{
+    color: #000000;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+
+
