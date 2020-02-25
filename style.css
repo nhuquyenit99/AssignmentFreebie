@@ -46,3 +46,40 @@ a{
     text-transform: uppercase;
     background: #FAFAFA;
 }
+.hero-side-image-right{
+    background: #F1F1F2;
+    height: 700px;
+    display: flex;
+}
+.content{
+    /* width: 50%; */
+    flex-grow: 1;
+    margin-left: 162px;
+    margin-top: 154px;
+}
+.title{
+    font-size: 56px;
+    width: 433px;
+    font-weight: bold;
+}
+.subtitle{
+    margin-top: 32px;
+    font-size: 20px;
+    width: 422px;
+}
+.button-primary{
+    background: #F7941E;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    margin-top: 52px;
+    text-transform: uppercase;
+}
+.background{
+    width: 50%;
+    background: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+}
