@@ -169,5 +169,34 @@ a{
     font-family: Roboto;
 }
 
+/* section5 */
+.CTA-section{
+    height: 240px;
+    background: #F7941E;
+    display: flex;
+}
+.CTA-tittle{
+    font-size: 32px;
+    margin-left: 235px;
+    margin-top: 75px;
+}
+.CTA-btn{
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-top: 95px;
+}
+#CTA-btn1{
+    background: black;
+    color: white;
+    border: none;
+    margin-left: 230px;
+    margin-right: 18px;
+}
+#CTA-btn2{
+    background: #F7941E;
+    border: 1px solid #000000;
+}
 
 
