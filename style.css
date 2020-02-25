@@ -17,6 +17,7 @@ body{
 a{
     text-decoration: none;
 }
+/* section1 */
 .Navigation-Bar{
     height: 116px;
     background: #FAFAFA;
@@ -58,6 +59,7 @@ a{
     display: flex;
 }
 .content{
+    /* width: 50%; */
     flex-grow: 1;
     margin-left: 162px;
     margin-top: 154px;
@@ -127,6 +129,7 @@ a{
     text-transform: uppercase;
 }
 
+/* section 4 */
 .title3{
     text-align: center;
     font-size: 32px;
@@ -137,7 +140,6 @@ a{
     font-size: 18px;
     margin-top: 23px;
 }
-/* section 4 */
 .gift-occasion{
     display: flex;
     padding: 64px 135px 137px;
@@ -197,6 +199,13 @@ a{
 #CTA-btn2{
     background: #F7941E;
     border: 1px solid #000000;
+}
+
+/* section6 */
+.Group1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 
