@@ -207,6 +207,10 @@ a{
     margin-bottom: 80px;
     text-align: center;
 }
+.Group1-title{
+    font-size: 32px; 
+    margin-bottom: 23px;
+}
 .blog-card-feature{
     height: 370px;
     margin-right: 135px;
@@ -214,7 +218,6 @@ a{
     display: flex;
 }
 .card-content{
-    flex-grow: 1;
     padding: 60px 200px 50px 80px;
     background: #231F20;
     color: white;
@@ -225,17 +228,25 @@ a{
     background-position: center;
     background-image: url(bg.jpg);   
 }
+.c-content{
+    font-size: 48px; 
+    margin-top: 27px; 
+    margin-bottom: 60px;
+}
+.link-readmore{
+    font-size: 18px; 
+    color: white;
+}
 .list-card{
     display: flex;
     margin: 40px 135px 80px 135px;
 }
 .blog-card{
     width: 570px;
-    padding: 60px;
+    padding: 25px 60px 60px 60px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 .card-title{
-    font-weight: bold;
     font-size: 24px;
     height: 69px;
     padding-right: 5px;
@@ -245,6 +256,9 @@ a{
     margin-top: 16px;
     margin-bottom: 16px;
     height: 72px;
+}
+.font14{
+    font-size: 14px;
 }
 
 
